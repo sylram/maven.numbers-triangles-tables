@@ -1,6 +1,4 @@
-package com.github.perschola;
-
-import java.lang.reflect.Array;
+package com.github.curriculeon;
 
 public class TableUtilities {
     public static String getSmallMultiplicationTable() {
