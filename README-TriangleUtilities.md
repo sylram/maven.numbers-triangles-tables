@@ -1,5 +1,5 @@
 # TriangleUtilities
-* Ensure each of the test cases in the class [TriangleUtilitiesTest](https://github.com/Zipcoder/CR-MicroLabs-Loops-NumbersTrianglesTables/blob/master/src/test/java/io/zipcoder/microlabs/mastering_loops/TriangleUtilitiesTest.java) successfully passes upon completion of each of the method stubs in the class [TriangleUtilities](https://github.com/Zipcoder/CR-MicroLabs-Loops-NumbersTrianglesTables/blob/master/src/main/java/io/zipcoder/microlabs/mastering_loops/TriangleUtilities.java).
+* Ensure each of the test cases in the class [TriangleUtilitiesTest](https://github.com/curriculeon/maven.numbers-triangles-tables/blob/master/src/test/java/com/github/perschola/TriangleUtilitiesTest.java).
     * `String getRow(int width)`
     * `String getSmallTriangle()`
     * `String getLargeTriangle()`

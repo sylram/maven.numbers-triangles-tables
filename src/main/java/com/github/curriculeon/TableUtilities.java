@@ -2,13 +2,11 @@ package com.github.curriculeon;
 
 public class TableUtilities {
     public static String getSmallMultiplicationTable() {
-        String stringMultiplicationTable=getMultiplicationTable(5);
-        return stringMultiplicationTable;
+        return getMultiplicationTable(5);
     }
 
     public static String getLargeMultiplicationTable() {
-        String stringMultiplicationTable=getMultiplicationTable(10);
-        return stringMultiplicationTable;
+        return getMultiplicationTable(10);
     }
 
     public static String getMultiplicationTable(int tableSize) {

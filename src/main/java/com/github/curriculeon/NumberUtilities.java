@@ -3,54 +3,45 @@ package com.github.curriculeon;
 
 public class NumberUtilities {
     public static String getEvenNumbers(int start, int stop) {
-        if (start%2!=0){
-            start++;
-        }
-        String evenNumbers=getRange(start,stop,2);
-        return evenNumbers;
+        return start % 2 == 1 ?
+                getRange(++start, stop, 2) :
+                getRange(start, stop, 2);
     }
 
 
     public static String getOddNumbers(int start, int stop) {
-        if (start%2!=1){
-            start++;
-        }
-        String evenNumbers=getRange(start,stop,2);
-        return evenNumbers;
+        return start % 2 == 0 ?
+                getRange(++start, stop, 2) :
+                getRange(start, stop, 2);
     }
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
-        String range = getExponentiations(start, stop, step, 2);
-        return range;
-
+        return getExponentiations(start, stop, step, 2);
     }
 
     public static String getRange(int stop) {
-        String range = getRange(0, stop);
-        return range;
+        return getRange(0, stop);
     }
 
     public static String getRange(int start, int stop) {
-        String range = getRange(start, stop, 1);
-        return range;
+        return getRange(start, stop, 1);
 
     }
 
 
     public static String getRange(int start, int stop, int step) {
-        String range = getExponentiations(start, stop, step, 1);
-        return range;
+        return getExponentiations(start, stop, step, 1);
     }
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-        int    currentNumber = start;
-        String range         = "";
-        while ( currentNumber < stop ) {
-            range += (int)Math.pow(currentNumber,exponent);
+        int currentNumber = start;
+        StringBuilder range = new StringBuilder();
+        while (currentNumber < stop) {
+            range.append((int) Math.pow(currentNumber, exponent));
             currentNumber += step;
         }
-        return range;
+        return range.toString();
     }
 }
