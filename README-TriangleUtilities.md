@@ -1,5 +1,5 @@
 # TriangleUtilities
-* Ensure each of the test cases in the class [TriangleUtilitiesTest](https://github.com/curriculeon/maven.numbers-triangles-tables/blob/master/src/test/java/com/github/perschola/TriangleUtilitiesTest.java).
+* Ensure each of the test cases in the class [TriangleUtilitiesTest](./src/test/java/com/github/curriculeon/TriangleUtilitiesTest.java).
     * `String getRow(int width)`
     * `String getSmallTriangle()`
     * `String getLargeTriangle()`
