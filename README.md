@@ -1,5 +1,5 @@
 # Leon's Loopy Lab
-* Click [here](https://curriculeon.github.io/maven.numbers-triangles-tables/tutorial.html) to view the instructor walkthrough of this assignment.
+* Click [here](https://curriculeon.github.io/maven.numbers-triangles-tables/docs/tutorial.html) to view the instructor walkthrough of this assignment.
 * Read each of the following `README` files and complete each of the asks.
     * [README-NumberUtilities.md](./docs/README-NumberUtilities.md)
     * [README-TriangleUtilities.md](./docs/README-TriangleUtilities.md)
