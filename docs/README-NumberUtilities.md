@@ -19,7 +19,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int stop = 11;
     
@@ -34,7 +34,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     012345678910
     ```
 
@@ -53,7 +53,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 11;
@@ -69,7 +69,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     5678910
     ```
 
@@ -84,7 +84,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 20;
@@ -101,7 +101,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     51015
     ```
     
@@ -124,7 +124,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 20;
@@ -140,7 +140,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     681012141618
     ```
     
@@ -152,7 +152,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 20;
@@ -168,7 +168,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     5791113151719
     ```
 
@@ -193,7 +193,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 20;
@@ -209,7 +209,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     25100225
     ```
     
@@ -230,7 +230,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int start = 5;
     int stop = 20;
@@ -248,6 +248,6 @@
 
 * Sample Output
 
-    ```
+    ```java
     25100225
     ```

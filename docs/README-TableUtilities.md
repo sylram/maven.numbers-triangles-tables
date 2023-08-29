@@ -43,7 +43,7 @@
 ### Example 1
 * Sample Script
 
-    ```
+    ```java
     // : Given    
     // : When
     String outcome = TableUtilities.getSmallMultiplicationTable();
@@ -56,7 +56,7 @@
 
 * Sample Output
 
-    ```
+    ```java
       1 |  2 |  3 |  4 |
       2 |  4 |  6 |  8 |
       3 |  6 |  9 | 12 |
@@ -111,7 +111,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given    
     // : When
     String outcome = TableUtilities.getLargeMultiplicationTable();
@@ -124,7 +124,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 | 10 |
     2 |  4 |  6 |  8 | 10 | 12 | 14 | 16 | 18 | 20 |
     3 |  6 |  9 | 12 | 15 | 18 | 21 | 24 | 27 | 30 |
@@ -180,7 +180,7 @@
 ### Example 1
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int n = 3;
     
@@ -195,7 +195,7 @@
 
 * Sample Output
 
-    ```
+    ```java
       1 |  2 |  3 |
       2 |  4 |  6 |
       3 |  6 |  9 |
@@ -206,7 +206,7 @@
 ### Example 2
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int n = 6;
     
@@ -221,7 +221,7 @@
 
 * Sample Output
 
-    ```
+    ```java
      1 |  2 |  3 |  4 |  5 |  6 |
      2 |  4 |  6 |  8 | 10 | 12 |
      3 |  6 |  9 | 12 | 15 | 18 |

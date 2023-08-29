@@ -1,9 +1,9 @@
 # Leon's Loopy Lab
 * Click [here](https://curriculeon.github.io/maven.numbers-triangles-tables/tutorial.html) to view the instructor walkthrough of this assignment.
 * Read each of the following `README` files and complete each of the asks.
-    * [README-NumberUtilities.md](./README-NumberUtilities.md)
-    * [README-TriangleUtilities.md](./README-TriangleUtilities.md)
-    * [README-TableUtilities.md](./README-TableUtilities.md)
+    * [README-NumberUtilities.md](./docs/README-NumberUtilities.md)
+    * [README-TriangleUtilities.md](./docs/README-TriangleUtilities.md)
+    * [README-TableUtilities.md](./docs/README-TableUtilities.md)
     
 
 

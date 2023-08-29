@@ -14,7 +14,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int width = 10;
     
@@ -29,7 +29,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     **********
     ```
     
@@ -54,7 +54,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     // : When
     String outcome = Triangles.getSmallTriangle();
@@ -67,7 +67,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     *
     **
     ***
@@ -89,7 +89,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     // : When
     String outcome = Triangles.getLargeTriangle();
@@ -102,7 +102,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     *
     **
     ***
@@ -130,7 +130,7 @@
 ### Example
 * Sample Script
 
-    ```
+    ```java
     // : Given
     int numberOfRows = 15;
     
@@ -145,7 +145,7 @@
 
 * Sample Output
 
-    ```
+    ```java
     *
     **
     ***
