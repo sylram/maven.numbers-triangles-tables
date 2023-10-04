@@ -25,9 +25,9 @@ public class NumberUtilities {
 
 
     public static String getSquareNumbers(int start, int stop, int step) {
-        String squareNumbers = "";
-        for (int i = start; i < stop ; i += step) squareNumbers += (i * i);
-        return squareNumbers;
+        StringBuilder squareNumbers = new StringBuilder();
+        for (int i = start; i < stop ; i += step) squareNumbers.append(i * i);
+        return squareNumbers.toString();
     }
 
     public static String getRange(int start) {
@@ -58,11 +58,11 @@ public class NumberUtilities {
 
 
     public static String getExponentiations(int start, int stop, int step, int exponent) {
-        String exponentiations = "";
+        StringBuilder exponentiations = new StringBuilder();
         for (int i = start; i < stop ; i += step) {
             int result = (int) Math.pow(i,exponent);
-            exponentiations += result;
+            exponentiations.append(result);
         }
-        return exponentiations;
+        return exponentiations.toString();
     }
 }
